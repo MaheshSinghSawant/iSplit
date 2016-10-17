@@ -1,0 +1,27 @@
+body.isplit {
+  color:white;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+article h1, h2 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+article h1 {
+  font-size: 100px;
+}
+article h2 {
+  font-size: 60px;
+}
+
+.isplit article {
+  overflow: hidden;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+button {
+  cursor:pointer;
+}

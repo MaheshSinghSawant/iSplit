@@ -1,0 +1,69 @@
+article.overview h1 {
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 225px;
+    margin-bottom:75px;
+}
+.legend-color {
+  position: relative;
+  top:10px;
+  margin-right: 25px;
+  margin-left:100px;
+  display: inline-block;
+  width:60px;
+  height:40px;
+}
+.legend-item p {
+  font-weight: bold;
+  color:rgba(0,0,0,0.7);
+  display: inline-block;
+}
+.legend-item {
+  margin-top: 25px;
+  width: 50%;
+  text-align: left;
+  display: inline-block;
+}
+.legend {
+  margin-top:50px;
+  color:black;
+  font-size: 35px;
+}
+article.overview svg {
+  width:80%;
+  margin-left: 10%;
+}
+article.overview .footer {
+  background-color: #e2dbd5;
+  width:100%;
+  position: fixed;
+  bottom:0;
+  height:200px;
+}
+.overview .overview-button {
+  width:400px;
+  height:150px;
+  position: absolute;
+  top:25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+}
+.overview .btn-back {
+    background-image:url(http://i.imgur.com/UiS0YgG.png);
+    background-color: #e54325;
+    left:25px;
+}
+.overview .btn-confirm {
+    right:25px;
+    background-color: #75b794;
+    background-image:url(http://i.imgur.com/wfPYNWO.png);
+}
+
+.isplit article.overview-page p {
+    font-size: 80px;
+    padding-top: 300px;
+}

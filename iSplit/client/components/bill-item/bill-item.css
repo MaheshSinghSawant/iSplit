@@ -1,0 +1,132 @@
+.list-item {
+  font-size: 45px;
+  color:black;
+  background-color: white;
+  width:100vw;
+  border-bottom:1px solid green;
+}
+.rc-collapse-header {
+  height:auto !important;
+  line-height: initial !important;
+  text-indent: initial !important;
+}
+.rc-collapse-content {
+  padding:0 !important;
+  margin:0 !important;
+}
+.add-person-icon {
+  position: absolute;
+  right:60px;
+  width:75px;
+  height:75px;
+  top:calc(50% - 37px);
+  background-image:url(http://i.imgur.com/0TwCGbY.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.list-item.add-person {
+  text-align: center;
+  color:white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(160, 207, 121, 0.8);
+}
+.add-person-icon{
+  position: relative;
+  top:15px;
+  padding:0 !important;
+  height:70px;
+  background-image:url(http://i.imgur.com/0TwCGbY.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.list-item.add-person p {
+  position: relative;
+  top:-30px;
+}
+.list-item > div {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: inline-block;
+}
+.btn-minus {
+  cursor: pointer;
+  background-image: url(http://i.imgur.com/mFrFrzk.png);
+  background-size: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0;
+  height:105px;
+  width:15%;
+}
+.arrow {
+  display: none !important;
+}
+
+[aria-expanded] .list-item {
+  transition: all 200ms ease-out;
+}
+[aria-expanded="true"] .list-item {
+  background-color: #ADD8E6;
+}
+.btn-plus {
+  margin-left: 15%;
+  cursor: pointer;
+  background-image: url(http://i.imgur.com/QKDa0O9.png);
+  background-size: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0;
+  height:105px;
+  width:15%;
+}
+.list-item-dropdown {
+  position: relative;
+}
+.list-item-dropdown .list-item-name {
+  width:65%;
+}
+.list-item-name {
+  padding-left:25px;
+  width:65%;
+}
+.list-item-price {
+  width: calc(15% - 50px);
+  padding-right:25px;
+  padding-left: 25px;
+  border-left: 1px solid green;
+}
+.list-item-quantity  {
+  border-right: 1px solid green;
+  text-align: center;
+  width: calc(15% - 25px);
+}
+.checkbox {
+  color:rgba(0,0,0,0);
+  text-align: center;
+  position: relative;
+  width:calc(15% - 25px);
+  padding-top:25px;
+  border-right:1px solid green;
+}
+.rc-collapse-content-box {
+  margin:0 !important;
+}
+.active .checkbox {
+  background-image:url(http://i.imgur.com/fdI0Kr5.png);
+}
+.checkbox {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:50%;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 50em) {
+	section {
+		font-size: 80%;
+	}
+}
